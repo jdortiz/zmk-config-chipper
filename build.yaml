@@ -19,6 +19,6 @@
 ---
 include:
   - board: seeeduino_xiao_ble
-    shield: corne_left
+    shield: chipper_left
   - board: seeeduino_xiao_ble
-    shield: corne_right
+    shield: chipper_right
