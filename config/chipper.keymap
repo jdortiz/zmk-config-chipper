@@ -134,7 +134,7 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&kp LCTRL      &kp Q               &kp W           &kp F           &kp P               &kp G      &kp J      &kp L                &kp U            &kp Y            &kp SEMI             &bkspc_del
+&kp ESCAPE     &kp Q               &kp W           &kp F           &kp P               &kp G      &kp J      &kp L                &kp U            &kp Y            &kp SEMI             &bkspc_del
 &kp TAB        &mt LEFT_CONTROL A  &mt LEFT_ALT R  &mt LEFT_GUI S  &mt LEFT_SHIFT T    &kp D      &kp H      &mt RIGHT_SHIFT N    &mt RIGHT_GUI E  &mt RIGHT_ALT I  &mt RIGHT_CONTROL O  &kp SQT
 &kp BACKSLASH  &kp Z               &kp X           &kp C           &kp V               &kp B      &kp K      &kp M                &kp COMMA        &kp DOT          &kp FSLH             &kp MINUS
                                                    &kp GRAVE       &lt 2 LEFT_BRACKET  &kp RET    &kp SPACE  &lt 3 RIGHT_BRACKET  &kp EQUAL
