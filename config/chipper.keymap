@@ -185,10 +185,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp F1                  &kp F2              &kp F3              &kp F4                    &kp F5             &kp F6               &kp F7             &kp F8          &kp F9          &kp F10          &kp F11        &kp F12
-&kp LC(UP_ARROW)        &kp LC(DOWN_ARROW)  &kp LS(LC(LG(N1)))  &kp LS(LC(LG(NUMBER_2)))  &kp LS(LC(LG(C)))  &kp LC(LS(TAB))      &kp LC(TAB)        &kp HOME        &kp UP_ARROW    &kp END          &kp PAGE_UP    &kp GRAVE
-&kp LC(LA(LEFT_ARROW))  &kp LS(LC(LG(A)))   &kp LS(LC(LG(R)))   &kp LS(LC(LG(S)))         &kp LS(LC(LG(T)))  &kp LS(LC(LG(D)))    &kp LS(LC(LG(F)))  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PAGE_DOWN  &kp LC(LA(RIGHT_ARROW))
-                                                                &none                     &mo 2              &kp RET              &kp SPACE          &trans          &none
+&kp F1              &kp F2              &kp F3              &kp F4                    &kp F5             &kp F6               &kp F7             &kp F8          &kp F9          &kp F10          &kp F11        &kp F12
+&kp LC(UP_ARROW)    &kp LC(DOWN_ARROW)  &kp LS(LC(LG(N1)))  &kp LS(LC(LG(NUMBER_2)))  &kp LS(LC(LG(C)))  &kp LC(LS(TAB))      &kp LC(TAB)        &kp HOME        &kp UP_ARROW    &kp END          &kp PAGE_UP    &kp GRAVE
+&kp LC(LEFT_ARROW)  &kp LS(LC(LG(A)))   &kp LS(LC(LG(R)))   &kp LS(LC(LG(S)))         &kp LS(LC(LG(T)))  &kp LS(LC(LG(D)))    &kp LS(LC(LG(F)))  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PAGE_DOWN  &kp LC(RIGHT_ARROW)
+                                                            &none                     &mo 2              &kp RET              &kp SPACE          &trans          &none
             >;
 
             label = "Navigation";
