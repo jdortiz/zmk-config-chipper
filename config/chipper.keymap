@@ -196,7 +196,7 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp ESCAPE  &none                 &none  &none          &none   &none      &kp N7     &kp N8    &kp N9      &kp KP_MINUS  &kp KP_DOT             &kp BSPC
+&kp ESCAPE  &none                 &none  &none          &none   &none      &kp N7     &kp N8    &kp N9      &kp KP_MINUS  &kp KP_DIVIDE          &kp BSPC
 &kp TAB     &none                 &none  &none          &none   &none      &kp N4     &kp N5    &kp N6      &kp KP_PLUS   &kp KP_MULTIPLY        &none
 &caps_word  &kp LEFT_PARENTHESIS  &none  &none          &none   &none      &kp N1     &kp N2    &kp N3      &kp KP_EQUAL  &kp RIGHT_PARENTHESIS  &none
                                          &next_snippet  &trans  &kp RET    &kp SPACE  &lt 3 N0  &kp KP_DOT
@@ -214,7 +214,7 @@
 
             bindings = <
 &kp F1              &kp F2              &kp F3              &kp F4                    &kp F5             &kp F6               &kp F7             &kp F8          &kp F9          &kp F10          &kp F11        &kp F12
-&kp LC(UP_ARROW)    &kp LC(DOWN_ARROW)  &kp LS(LC(LG(N1)))  &kp LS(LC(LG(NUMBER_2)))  &kp LS(LC(LG(C)))  &kp LC(LS(TAB))      &kp LC(TAB)        &kp HOME        &kp UP_ARROW    &kp END          &kp PAGE_UP    &kp GRAVE
+&kp LC(UP_ARROW)    &kp LC(DOWN_ARROW)  &kp LS(LC(LG(N1)))  &kp LS(LC(LG(NUMBER_2)))  &kp LS(LC(LG(C)))  &kp LC(LS(TAB))      &kp LC(TAB)        &kp HOME        &kp UP_ARROW    &kp END          &kp PAGE_UP    &none
 &kp LC(LEFT_ARROW)  &kp LS(LC(LG(A)))   &kp LS(LC(LG(R)))   &kp LS(LC(LG(S)))         &kp LS(LC(LG(T)))  &kp LS(LC(LG(D)))    &kp LS(LC(LG(F)))  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PAGE_DOWN  &kp LC(RIGHT_ARROW)
                                                             &none                     &mo 2              &kp RET              &kp SPACE          &trans          &none
             >;
