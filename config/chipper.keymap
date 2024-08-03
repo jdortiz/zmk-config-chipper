@@ -62,16 +62,16 @@
             bindings = <&kp ESC>;
         };
 
-        combo_ctlbksp {
-            timeout-ms = <COMBO_TIMEOUT>;
-            key-positions = <6 7 8>;
-            bindings = <&kp LC(BSPC)>;
+        combo_left_par {
+            bindings = <&kp LEFT_PARENTHESIS>;
+            key-positions = <17 37>;
+            layers = <0 1>;
         };
 
-        combo_bksp {
-            timeout-ms = <COMBO_TIMEOUT>;
-            key-positions = <16 17 18>;
-            bindings = <&kp BSPC>;
+        combo_right_par {
+            bindings = <&kp RIGHT_PARENTHESIS>;
+            key-positions = <18 40>;
+            layers = <0 1>;
         };
     };
 };
